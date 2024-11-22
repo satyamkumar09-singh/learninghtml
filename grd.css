@@ -1,0 +1,29 @@
+.main{
+    display: grid;
+    grid-template-columns: 2;
+    place-content: end;
+    grid-gap:50px;
+
+}
+.grid-container{
+    grid-column: span2;
+    justify-content: end;
+    grid-template-columns: auto auto auto;
+    background-color: rgb(100, 43, 153);
+    padding: 1px;
+    grid-gap:50px;
+}
+.grid-container1{
+    grid-column: span2;
+    background-color: rgb(100, 43, 153);
+    padding: 1px;
+}
+.grid1 , .grid2 , .grid3 , .grid4{
+    box-shadow: grey;
+}
+.image1{
+    background-color:  rgb(100, 43, 153);
+    border: 1px solid rgb(255, 255, 255);
+    padding: 20px;
+    font-size: 30px;
+}

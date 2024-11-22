@@ -1,0 +1,83 @@
+body{
+    background-color: #02131f;
+    height: 120vh;
+    width: 100%;
+}
+.next1{
+    height: 100vh;
+    width: 100%;
+    background-color:#E3E6E6;
+    position: absolute;
+}
+.next1 .homeb1{
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    background: url(bg-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    border-radius: 4px;
+}
+.next1 .homeb1 .dabba{
+    position: absolute;
+    width: 400%;
+    height: 100vh;
+    border-radius: 4px;
+    background: url(highway.jpg);
+    background-color: aqua;
+    animation-name: cars;
+    animation-duration: 10s;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(0.075,1,0.165,1);
+    display: flex;
+}
+.next1 .homeb1 .dabba .b1,.b2,.b3,.b4{
+width: 100%;
+height: 100%;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.next1 .homeb1 .dabba .b1 img{
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.next1 .homeb1 .dabba .b2 img{
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}.next1 .homeb1 .dabba .b3 img{
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}.next1 .homeb1 .dabba .b4 img{
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+@keyframes cars{
+    0%{
+        left: 0%;
+    }
+    25%{
+        left: -100%;
+    }
+    75%{
+        left: -200%;
+    }
+    100%{
+        left: -300%;
+    }
+
+}

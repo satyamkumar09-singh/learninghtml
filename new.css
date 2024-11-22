@@ -1,0 +1,15 @@
+.ani{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    animation-name: box;
+    animation-duration: 4s;
+    animation-delay: 2s;
+}
+@keyframes box {
+    0% {background-image: url(image1.jpg.jpg);left:0px;top:0px;}
+    25% {background-image: url(image2.jpg.jpg);left:10px;top:0px;}
+    50% {background-image: url(image3.jpg.jp);left:20px;top:0px;border-radius:0%}
+    75% {background-image: url(image4.jpg.jpg);left:30px;top:0px;border-radius:0%}
+    100%{background-image: url(image5.jpg.jpg);left:40px;top:0px;border-radius:0px}
+}

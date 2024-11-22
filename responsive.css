@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    background-color: orangered;
+
+}
+.navbar ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.navbar ul li{
+    list-style: none;
+    margin: 20px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color:black;
+
+}
+.home {
+    height: 80vh;
+    width: 100%;
+    text-align: center;
+}
+/*-----------media query iphone ----------*/
+@media screen and (max-width: 391px){
+.navbar {
+    background-color: yellow;
+    
+    
+}
+.navbar ul li a{
+    color:blue;
+    
+}
+.home{
+    background-color: blueviolet;
+}
+}
